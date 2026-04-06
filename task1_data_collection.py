@@ -5,7 +5,6 @@ import time
 from datetime import datetime
 
 
-# --- category keywords ---
 # I'm doing case-insensitive matching so "AI" and "ai" both work
 CATEGORIES = {
     "technology":    ["ai", "software", "tech", "code", "computer", "data", "cloud", "api", "gpu", "llm"],
