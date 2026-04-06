@@ -3,11 +3,11 @@ import numpy as np
 import os
 
 
-# -------------------------------------------------------
+
 # Task 3 — Load the cleaned CSV from Task 2 and dig into
 # the numbers using Pandas + NumPy. Then save the enriched
 # DataFrame as a new CSV for Task 4 to visualise.
-# -------------------------------------------------------
+
 
 CSV_PATH = "data/trends_clean.csv"
 
@@ -120,16 +120,16 @@ def main():
         print(f"Error: {CSV_PATH} not found. Did Task 2 run successfully?")
         return
 
-    # --- Step 1: load and explore ---
+    #  Step 1: load and explore 
     df = load_and_explore(CSV_PATH)
 
-    # --- Step 2: NumPy stats ---
+    #  Step 2: NumPy stats 
     numpy_analysis(df)
 
-    # --- Step 3: add new columns ---
+    #  Step 3: add new columns 
     df = add_new_columns(df)
 
-    # --- Step 4: save ---
+    #  Step 4: save 
     save_result(df)
 
     print("\nDone. Task 4 can now load data/trends_analysed.csv for visualisation.")
