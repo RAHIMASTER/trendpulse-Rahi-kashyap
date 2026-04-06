@@ -5,11 +5,10 @@ import numpy as np
 import os
 
 
-# -------------------------------------------------------
+
 # Task 4 — Take the analysed CSV from Task 3 and turn
 # the numbers into actual charts. Three individual PNGs
 # plus a combined dashboard at the end.
-# -------------------------------------------------------
 
 CSV_PATH    = "data/trends_analysed.csv"
 OUTPUT_DIR  = "outputs"
@@ -55,9 +54,9 @@ def shorten_title(title, max_len=50):
     return title
 
 
-# -------------------------------------------------------
+
 # Chart 1 — Top 10 stories by score (horizontal bar)
-# -------------------------------------------------------
+
 def chart1_top_stories(df):
     """Horizontal bar chart of the 10 highest-scoring stories."""
 
@@ -104,9 +103,9 @@ def chart1_top_stories(df):
     print(f"Saved: {path}")
 
 
-# -------------------------------------------------------
+
 # Chart 2 — Stories per category (vertical bar)
-# -------------------------------------------------------
+
 def chart2_categories(df):
     """Bar chart showing story count per category."""
 
@@ -145,9 +144,10 @@ def chart2_categories(df):
     print(f"Saved: {path}")
 
 
-# -------------------------------------------------------
+
 # Chart 3 — Score vs Comments scatter (coloured by popularity)
-# -------------------------------------------------------
+
+
 def chart3_scatter(df):
     """
     Scatter plot: score on x, num_comments on y.
@@ -193,9 +193,11 @@ def chart3_scatter(df):
     print(f"Saved: {path}")
 
 
-# -------------------------------------------------------
+
 # Bonus — Dashboard: all 3 charts in one figure
-# -------------------------------------------------------
+
+
+
 def dashboard(df):
     """
     Combines the three charts into one dashboard figure.
