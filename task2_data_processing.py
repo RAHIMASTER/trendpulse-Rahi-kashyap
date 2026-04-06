@@ -3,10 +3,10 @@ import glob
 import os
 
 
-# -------------------------------------------------------
+
 # Task 2 — Load the JSON from Task 1, clean it up,
 # and save a tidy CSV ready for analysis in Task 3.
-# -------------------------------------------------------
+
 
 
 def find_json_file():
@@ -55,7 +55,7 @@ def clean_data(df):
     df = df.dropna(subset=["post_id", "title", "score"])
     print(f"After removing nulls: {len(df)}")
 
-    # --- step 3: fix data types ---
+    # step 3: fix data types ---
     # score and num_comments should be ints, not floats
     # (Pandas sometimes reads them as float64 if there were any nulls)
     df["score"] = df["score"].astype(int)
@@ -63,12 +63,12 @@ def clean_data(df):
     # post_id should also be int — just making sure
     df["post_id"] = df["post_id"].astype(int)
 
-    # --- step 4: remove low-quality stories (score < 5) ---
+    #  step 4: remove low-quality stories (score < 5) ---
     # Anything below 5 upvotes is basically noise
     df = df[df["score"] >= 5]
     print(f"After removing low scores: {len(df)}")
 
-    # --- step 5: clean up whitespace in the title column ---
+    #  step 5: clean up whitespace in the title column ---
     # strip leading/trailing spaces; .str.strip() handles it nicely
     df["title"] = df["title"].str.strip()
 
