@@ -1,3 +1,6 @@
+# NAME - RAHI KASHYAP 
+
+
 import requests
 import json
 import os
@@ -5,7 +8,6 @@ import time
 from datetime import datetime
 
 
-# I'm doing case-insensitive matching so "AI" and "ai" both work
 CATEGORIES = {
     "technology":    ["ai", "software", "tech", "code", "computer", "data", "cloud", "api", "gpu", "llm"],
     "worldnews":     ["war", "government", "country", "president", "election", "climate", "attack", "global"],
@@ -14,10 +16,10 @@ CATEGORIES = {
     "entertainment": ["movie", "film", "music", "netflix", "game", "book", "show", "award", "streaming"],
 }
 
-# base url for the HN API
+# base urL
 HN_BASE = "https://hacker-news.firebaseio.com/v0"
 
-# adding a user-agent header as required
+# adding a user-agent header 
 HEADERS = {"User-Agent": "TrendPulse/1.0"}
 
 # only want 25 per category, 5 categories = 125 max
@@ -46,7 +48,7 @@ def get_story_details(story_id):
         resp.raise_for_status()
         return resp.json()
     except requests.RequestException as e:
-        # not crashing here, just warning and moving on
+        
         print(f"  Failed to fetch story {story_id}: {e}")
         return None
 
@@ -64,8 +66,7 @@ def figure_out_category(title):
     lowered = title.lower()
     for cat, keywords in CATEGORIES.items():
         for kw in keywords:
-            # using 'in' for substring match, e.g. "blockchain" won't match "code"
-            # but "coding" will match "code" which is fine for our purposes
+            
             if kw in lowered:
                 return cat
     return None
@@ -111,7 +112,7 @@ def collect_stories(story_ids):
             "title":        title,
             "category":     cat,
             "score":        story.get("score", 0),
-            "num_comments": story.get("descendants", 0),   # descendants = comment count in HN
+            "num_comments": story.get("descendants", 0),  
             "author":       story.get("by", "unknown"),
             "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         }
@@ -122,7 +123,7 @@ def collect_stories(story_ids):
         if len(buckets[cat]) >= MAX_PER_CATEGORY:
             full_cats.add(cat)
             print(f"  [{cat}] reached {MAX_PER_CATEGORY} stories — sleeping 2s...")
-            time.sleep(2)   # one sleep per category as specified, not per story
+            time.sleep(2) 
 
     return buckets
 
