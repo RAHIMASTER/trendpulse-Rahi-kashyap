@@ -40,7 +40,7 @@ def numpy_analysis(df):
     Could do this with df.describe() but the task specifically
     asks for NumPy, so pulling out the raw array and working on that.
     """
-    scores = df["score"].to_numpy()        # plain numpy array
+    scores = df["score"].to_numpy()    
     comments = df["num_comments"].to_numpy()
 
     print("\n--- NumPy Stats ---")
@@ -50,7 +50,7 @@ def numpy_analysis(df):
     print(f"Median score : {np.median(scores):.2f}")
     print(f"Std deviation: {np.std(scores):.2f}")
 
-    # extremes
+
     print(f"Max score    : {int(np.max(scores))}")
     print(f"Min score    : {int(np.min(scores))}")
 
@@ -103,7 +103,7 @@ def add_new_columns(df):
 
 def save_result(df):
     """Saves the updated DataFrame to data/trends_analysed.csv."""
-    os.makedirs("data", exist_ok=True)      # just in case
+    os.makedirs("data", exist_ok=True) 
     output_path = "data/trends_analysed.csv"
 
     df.to_csv(output_path, index=False, encoding="utf-8")
