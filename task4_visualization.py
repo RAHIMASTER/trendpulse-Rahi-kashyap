@@ -13,8 +13,7 @@ import os
 CSV_PATH    = "data/trends_analysed.csv"
 OUTPUT_DIR  = "outputs"
 
-# I picked these colours manually so they look good together
-# instead of just using matplotlib's default blue for everything
+
 CATEGORY_COLOURS = {
     "technology":    "#4C9BE8",
     "worldnews":     "#E8724C",
@@ -91,7 +90,7 @@ def chart1_top_stories(df):
     ax.set_ylabel("Story Title", fontsize=11)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
-    ax.set_xlim(0, top10["score"].max() * 1.12)   # a bit of extra room for the labels
+    ax.set_xlim(0, top10["score"].max() * 1.12) 
 
     plt.tight_layout()
 
