@@ -24,7 +24,7 @@ def find_json_file():
         )
 
     # if somehow there are multiple files, grab the latest one by name
-    # (the date is baked into the filename so sorting works fine)
+
     matches.sort()
     return matches[-1]
 
@@ -44,23 +44,24 @@ def clean_data(df):
 
     # --- step 1: remove duplicates based on post_id ---
     # HN sometimes surfaces the same story in multiple requests,
-    # so this is a real possibility
+
     before = len(df)
     df = df.drop_duplicates(subset="post_id")
     print(f"\nAfter removing duplicates: {len(df)}")
 
     # --- step 2: drop rows with missing critical fields ---
-    # A story without an ID, title or score is basically useless for analysis
+
     before = len(df)
     df = df.dropna(subset=["post_id", "title", "score"])
     print(f"After removing nulls: {len(df)}")
 
     # step 3: fix data types ---
     # score and num_comments should be ints, not floats
-    # (Pandas sometimes reads them as float64 if there were any nulls)
+    
     df["score"] = df["score"].astype(int)
     df["num_comments"] = df["num_comments"].fillna(0).astype(int)
-    # post_id should also be int — just making sure
+
+    
     df["post_id"] = df["post_id"].astype(int)
 
     #  step 4: remove low-quality stories (score < 5) ---
