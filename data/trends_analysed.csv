@@ -1,0 +1,82 @@
+post_id,title,category,score,num_comments,author,collected_at,engagement,is_popular
+47663147,Launch HN: Freestyle: Sandboxes for AI Coding Agents,technology,115,64,benswerd,2026-04-07 01:22:39,0.5517,False
+47660925,Claude Code is unusable for complex engineering tasks with the Feb updates,technology,486,331,StanAngeloff,2026-04-07 01:22:49,0.6797,True
+47664205,Adobe modifies hosts file to detect whether Creative Cloud is installed,technology,116,56,rglullis,2026-04-07 01:22:53,0.4786,False
+47655408,Show HN: I built a tiny LLM to demystify how language models work,technology,802,122,armanified,2026-04-07 01:22:55,0.1519,True
+47638148,Show HN: I successfully failed at one-shot-ing a video codec like h.264,technology,7,2,bushido,2026-04-07 01:23:08,0.25,False
+47658146,France pulls last gold held in US for $15B gain,technology,509,280,teleforce,2026-04-07 01:23:09,0.549,True
+47652007,"Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",technology,242,26,karimf,2026-04-07 01:23:14,0.107,True
+47656981,"Drop, formerly Massdrop, ends most collaborations and rebrands under Corsair",technology,115,61,stevebmark,2026-04-07 01:23:19,0.5259,False
+47651540,Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code,technology,382,95,vbtechguy,2026-04-07 01:23:20,0.248,True
+47665902,Wikipedia's AI agent row likely just the beginning of the bot-ocalypse,technology,5,1,hackernj,2026-04-07 01:23:21,0.1667,False
+47655367,"Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",technology,139,19,ikessler,2026-04-07 01:23:24,0.1357,False
+47655466,Employers use your personal data to figure out the lowest salary you'll accept,technology,405,255,thisislife2,2026-04-07 01:23:34,0.6281,True
+47648828,"Eight years of wanting, three months of building with AI",technology,898,281,brilee,2026-04-07 01:23:40,0.3126,True
+47650312,A tail-call interpreter in (nightly) Rust,technology,187,50,g0xA52A2A,2026-04-07 01:23:42,0.266,False
+47649742,Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs,technology,203,27,desideratum,2026-04-07 01:23:50,0.1324,False
+47640728,Show HN: A game where you build a GPU,technology,942,181,Jaso1024,2026-04-07 01:23:57,0.1919,True
+47656659,Media scraper Gallery-dl is moving to Codeberg after receiving a DMCA notice,technology,191,58,MoltenMonster,2026-04-07 01:24:04,0.3021,False
+47640380,Apple approves driver that lets Nvidia eGPUs work with Arm Macs,technology,521,234,naves,2026-04-07 01:24:15,0.4483,True
+47652549,Iran's IRGC Publishes Satellite Imagery of OpenAI's $30B Stargate Datacenter,technology,65,34,alvivanco,2026-04-07 01:24:20,0.5152,False
+47655058,OpenAI's fall from grace as investors race to Anthropic,technology,204,138,1vuio0pswjnm7,2026-04-07 01:24:22,0.6732,False
+47651479,From birds to brains: My path to the fusiform face area (2024),technology,39,0,everbody,2026-04-07 01:24:23,0.0,False
+47633396,Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw,technology,1086,826,firloop,2026-04-07 01:24:24,0.7599,True
+47656335,Does coding with LLMs mean more microservices?,technology,57,61,jer0me,2026-04-07 01:24:27,1.0517,False
+47637757,Embarrassingly simple self-distillation improves code generation,technology,648,198,Anon84,2026-04-07 01:24:37,0.3051,True
+47658388,NIMBY Rails,technology,38,5,altilunium,2026-04-07 01:24:38,0.1282,False
+47660954,"Germany Doxes ""UNKN,"" Head of RU Ransomware Gangs REvil, GandCrab",worldnews,208,100,Bender,2026-04-07 01:22:41,0.4785,False
+47664308,JPMorgan warns Tesla stock could sink 60% in new note,worldnews,39,6,freediddy,2026-04-07 01:23:32,0.15,False
+47647788,The threat is comfortable drift toward not understanding what you're doing,worldnews,934,601,zaikunzhang,2026-04-07 01:23:58,0.6428,True
+47653036,Satellite firm Planet Labs to indefinitely withold Iran war imagery,worldnews,41,12,anigbrowl,2026-04-07 01:26:09,0.2857,False
+47615002,Qwen3.6-Plus: Towards real world agents,worldnews,591,209,pretext,2026-04-07 01:26:45,0.353,True
+47656682,Winners of the 2026 Kokuyo Design Awards,worldnews,52,17,zdw,2026-04-07 01:27:02,0.3208,False
+47645817,How Pope Leo is pushing back on divine justification of war,worldnews,75,42,1659447091,2026-04-07 01:27:06,0.5526,False
+47615756,Renewables reached nearly 50% of global electricity capacity last year,worldnews,296,148,Growtika,2026-04-07 01:28:11,0.4983,True
+47650273,"Meta, Google under attack as court cases bypass 30-year-old legal shield",worldnews,18,10,1vuio0pswjnm7,2026-04-07 01:28:17,0.5263,False
+47653816,UK intelligence censored report on global warming and homeland security,worldnews,98,55,ewidar,2026-04-07 01:29:52,0.5556,False
+47618221,The Australian government has announced gambling advertising reforms,worldnews,133,101,gostsamo,2026-04-07 01:30:14,0.7537,False
+47664186,"Battle for Wesnoth: open-source, turn-based strategy game",sports,209,52,akyuu,2026-04-07 01:22:37,0.2476,False
+47656501,The 1987 game “The Last Ninja” was 40 kilobytes,sports,252,163,keepamovin,2026-04-07 01:23:12,0.6443,True
+47637377,LÖVE: 2D Game Framework for Lua,sports,396,202,cl3misch,2026-04-07 01:23:13,0.5088,True
+47662682,Tattoo ink induces inflammation and alters the immune response to vaccination,sports,13,0,ryan_j_naughton,2026-04-07 01:24:52,0.0,False
+47639727,"When legal sports betting surges, so do Americans' financial problems",sports,220,143,pseudolus,2026-04-07 01:26:06,0.6471,True
+47644726,"Power-washing, pool-cleaning and mowing – playing games about mundane jobs",sports,24,4,andsoitis,2026-04-07 01:26:19,0.16,False
+47609564,Steam on Linux Use Skyrocketed Above 5% in March,sports,782,365,hkmaxpro,2026-04-07 01:26:44,0.4662,True
+47633676,"Extra usage credit for Pro, Max, and Team plans",sports,64,61,angst,2026-04-07 01:27:00,0.9385,False
+47641615,Sopwith – 1984 Game (2000),sports,97,42,elvis70,2026-04-07 01:27:18,0.4286,False
+47651019,PS3 emulator makes Cell CPU breakthrough that improves performance in all games,sports,9,0,gloxkiqcza,2026-04-07 01:30:59,0.0,False
+47656303,Case study: recovery of a corrupted 12 TB multi-device pool,science,112,60,salt4034,2026-04-07 01:23:30,0.531,False
+47650502,Computational Physics (2nd Edition) (2025),science,171,20,teleforce,2026-04-07 01:23:44,0.1163,False
+47663650,NASA's Artemis II Crew Flies Around the Moon (Official Broadcast) [video],science,6,1,gwbas1c,2026-04-07 01:24:17,0.1429,False
+47648404,My Google Workspace account suspension,science,361,213,zenincognito,2026-04-07 01:24:47,0.5884,True
+47629485,A case study in testing with 100+ Claude agents in parallel,science,65,51,thejash,2026-04-07 01:25:31,0.7727,False
+47611993,VR Realizes the Cyberspace Metaphor,science,17,17,dryadin,2026-04-07 01:26:53,0.9444,False
+47604155,SpaceX files to go public,science,398,576,nutjob2,2026-04-07 01:27:48,1.4436,True
+47607394,SolveSpace (open source 2D/3D CAD) working on Windows 2000 (2025),science,40,6,ruevs,2026-04-07 01:30:06,0.1463,False
+47645926,The Spaceballs sequel will be released in April next year,science,8,1,WaitWaitWha,2026-04-07 01:31:21,0.1111,False
+47645240,SpaceX Pushes Back Crucial Starship Test Launch,science,14,13,bookmtn,2026-04-07 01:31:39,0.8667,False
+47660853,Book review: There is no antimemetics division,entertainment,148,95,ibobev,2026-04-07 01:22:43,0.6376,False
+47652322,Music for Programming,entertainment,318,160,merusame,2026-04-07 01:23:22,0.5016,True
+47662429,Show HN: Weird Clocks,entertainment,9,5,vunderba,2026-04-07 01:23:25,0.5,False
+47655392,Show HN: I made a YouTube search form with advanced filters,entertainment,297,193,nevernothing,2026-04-07 01:23:33,0.6477,True
+47655268,"Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf",entertainment,91,18,mohshomis,2026-04-07 01:23:35,0.1957,False
+47663207,Show HN: I Built Paul Graham's Intellectual Captcha Idea,entertainment,27,31,nowflux,2026-04-07 01:23:43,1.1071,False
+47658617,Show HN: I just built a MCP Server that connects Claude to all your wearables,entertainment,12,11,anton_salcher,2026-04-07 01:23:54,0.8462,False
+47659363,"Show HN: I replaced Google Analytics with my own tool – no cookies, <1KB script",entertainment,10,5,VictorChanet,2026-04-07 01:24:02,0.4545,False
+47646504,Show HN: OsintRadar – Curated directory for osint tools,entertainment,78,9,lexalizer,2026-04-07 01:24:19,0.1139,False
+47642601,Show HN: M. C. Escher spiral in WebGL inspired by 3Blue1Brown,entertainment,171,28,laszlokorte,2026-04-07 01:24:21,0.1628,False
+47645025,Show HN: Contrapunk – Real-time counterpoint harmony from guitar input,entertainment,116,54,waveywaves,2026-04-07 01:24:34,0.4615,False
+47613118,Show HN: I built a small app for FSI German Course,entertainment,53,15,syedmsawaid,2026-04-07 01:25:02,0.2778,False
+47625952,Show HN: I built a frontpage for personal blogs,entertainment,776,194,ramkarthikk,2026-04-07 01:25:24,0.2497,True
+47656608,Show HN: Multi-agent coding assistant with a sandboxed Rust execution engine,entertainment,10,2,chrismeurer,2026-04-07 01:25:41,0.1818,False
+47639303,"Show HN: I made open source, zero power PCB hackathon badges",entertainment,157,18,kaipereira,2026-04-07 01:25:48,0.1139,False
+47639567,Show HN: TurboQuant-WASM – Google's vector quantization in the browser,entertainment,164,6,teamchong,2026-04-07 01:26:30,0.0364,False
+47633947,The FAA’s flight restriction for drones is an attempt to criminalize filming ICE,entertainment,550,181,detaro,2026-04-07 01:26:47,0.3285,True
+47606560,"Show HN: Dull – Instagram Without Reels, YouTube Without Shorts (iOS)",entertainment,152,118,kasparnoor,2026-04-07 01:27:29,0.7712,False
+47626598,Show HN: ctx – an Agentic Development Environment (ADE),entertainment,52,53,luca-ctx,2026-04-07 01:27:44,1.0,False
+47630109,Firm boosts H.264 streaming license fees from $100k up to staggering $4.5M,entertainment,193,75,MaximilianEmel,2026-04-07 01:27:50,0.3866,False
+47650894,"Show HN: Gecit – DPI bypass using eBPF sock_ops, no proxy or VPN",entertainment,8,2,boratanrikulu,2026-04-07 01:27:51,0.2222,False
+47621438,Show HN: Made a little Artemis II tracker,entertainment,153,60,codingmoh,2026-04-07 01:28:01,0.3896,False
+47643637,Show HN: Dev Personality Test,entertainment,14,3,4m1rk,2026-04-07 01:28:14,0.2,False
+47642275,"Netflix must refund customers for years of price hikes, Italian court rules",entertainment,63,6,xbmcuser,2026-04-07 01:28:18,0.0938,False
+47640770,Show HN: DocMason – Agent Knowledge Base for local complex office files,entertainment,11,0,Jet_Xu,2026-04-07 01:28:24,0.0,False
